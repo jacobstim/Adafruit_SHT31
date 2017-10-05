@@ -1,32 +1,4 @@
-# Adafruit_SHT31
-<!-- START COMPATIBILITY TABLE -->
+# Adafruit_SHT31D
+SHT31-D driver using the Adafruit Unified Sensor Driver framework
 
-## Compatibility
-
-MCU                | Tested Works | Doesn't Work | Not Tested  | Notes
------------------- | :----------: | :----------: | :---------: | -----
-Atmega328 @ 16MHz  |      X       |             |            | 
-Atmega328 @ 12MHz  |      X       |             |            | 
-Atmega32u4 @ 16MHz |      X       |             |            | 
-Atmega32u4 @ 8MHz  |      X       |             |            | 
-ESP8266            |      X       |             |            | 
-Atmega2560 @ 16MHz |      X       |             |            | 
-ATSAM3X8E          |      X       |             |            | 
-ATSAM21D           |      X       |             |            | 
-ATtiny85 @ 16MHz   |      X       |             |            | 
-ATtiny85 @ 8MHz    |      X       |             |            | 
-Intel Curie @ 32MHz |             |             |     X       | 
-STM32F2            |             |             |     X       | 
-
-  * ATmega328 @ 16MHz : Arduino UNO, Adafruit Pro Trinket 5V, Adafruit Metro 328, Adafruit Metro Mini
-  * ATmega328 @ 12MHz : Adafruit Pro Trinket 3V
-  * ATmega32u4 @ 16MHz : Arduino Leonardo, Arduino Micro, Arduino Yun, Teensy 2.0
-  * ATmega32u4 @ 8MHz : Adafruit Flora, Bluefruit Micro
-  * ESP8266 : Adafruit Huzzah
-  * ATmega2560 @ 16MHz : Arduino Mega
-  * ATSAM3X8E : Arduino Due
-  * ATSAM21D : Arduino Zero, M0 Pro
-  * ATtiny85 @ 16MHz : Adafruit Trinket 5V
-  * ATtiny85 @ 8MHz : Adafruit Gemma, Arduino Gemma, Adafruit Trinket 3V
-
-<!-- END COMPATIBILITY TABLE -->
+This library is a wrapper arounds [Adafruit's original SHT31 sensor library](https://github.com/adafruit/Adafruit_SHT31) to make it compatible with Adafruit's own and extremely useful [Unified Sensor Driver framework](https://github.com/adafruit/Adafruit_Sensor). The wrapper itself was inspired heavily by the [DHT_Unified](https://github.com/adafruit/DHT-sensor-library/) wrapper they provide for the DHT sensors.
